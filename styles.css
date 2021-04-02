@@ -14,6 +14,7 @@ font-size: 1.8rem;
 a{
     color: black;
     text-decoration: none;
+    font-weight: 500;
 }
 .centrar-texto{
     text-align: center;
@@ -21,10 +22,12 @@ a{
 
 h1{
     font-size: 2.3rem;
+    font-weight: 500;
 }
 
 h2{
     font-size: 2rem;
+    font-weight: 500;
 }
 
 h3{
@@ -42,7 +45,6 @@ h4{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 
 
@@ -70,11 +72,14 @@ h4{
 
 .img-header{
     width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
      
 }
 
 .img-personal{
-    width: 30rem;
+    width: 350px;
 }
 
 .dos-divisiones{
@@ -82,10 +87,73 @@ h4{
     align-items: center;
     justify-content: space-between;
     padding: 2rem 10rem; 
+    max-width: 70%;
+    margin: auto;
     
 }
 .background-color{
-    background-color: #E2E0E0;
+    background-color: #fff;
 }
 
+.dos-divisiones p{
+    color: #52575d;
+    font-weight: 300;
+    
+}
+
+.dos-divisiones h2{
+    font-weight: 500;
+}
+
+.division-texto{
+    max-width: 50%;
+}
+.conocimientos{
+    background-color: #52575d;
+   
+
+}
+
+.conocimientos h3{
+    font-weight: 500;
+}
+
+.conocimientos p{
+    font-weight: 300;
+}
+
+
+.conocimientos-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 10rem; 
+    max-width: 70%;
+    margin: auto;
+    color: whitesmoke;
+    
+}
+
+.img-idea{
+    width: 200px;
+}
+
+.proyectos{
+    padding: 2rem 10rem; 
+    max-width: 70%;
+    margin: auto;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards{
+    background-color: yellow;
+    width: calc(40% - 40px);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
 /* END BODY */
