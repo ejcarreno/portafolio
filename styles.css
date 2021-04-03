@@ -99,16 +99,12 @@ h4{
     align-items: center;
     justify-content: center;
     padding: 2rem 10rem; 
-    
     margin: auto;
     background-color: whitesmoke;
-    height: 300px;
+    height: 350px;
     
 }
-.size-area{
-    height: 500px;
-    background-color: whitesmoke;
-}
+
 
 .dos-divisiones p{
     color: #52575d;
