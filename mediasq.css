@@ -1,0 +1,34 @@
+@media only screen and (max-width: 768px){
+    .media-menu{
+        display: none;
+    }
+    header .contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    main .dos-divisiones{
+        width: 95%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    section .conocimientos-container{
+        max-width: 95%;
+        margin: 0 auto;
+        padding: 0;
+        justify-content: center;
+       
+    }
+
+    .img-idea{
+        padding: 10px;
+    }
+
+    
+    section .proyectos{
+        max-width: 95%;
+        margin: 0 auto;
+        padding: 0;
+    }

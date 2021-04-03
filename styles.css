@@ -4,6 +4,8 @@ html {
 }
 *, *:before, *:after {
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 body{
 font-family: 'Roboto', sans-serif;
@@ -53,10 +55,7 @@ h4{
 .contenedor{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-   
-  
-    
+    justify-content: space-between; 
 }
 
 
