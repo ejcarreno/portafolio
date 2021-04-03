@@ -121,7 +121,7 @@ h4{
 }
 .conocimientos{
     background-color: #52575d;
-    height: 300px;
+    
 
 }
 
@@ -141,6 +141,7 @@ h4{
     justify-content: space-between;
     padding: 2rem 10rem; 
     max-width: 70%;
+    height: 350px;
     margin: auto;
     color: whitesmoke;
     
