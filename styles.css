@@ -42,7 +42,7 @@ h4{
     font-size: 1.5rem;
 }
 
-.background-color{
+.background-white{
     background-color: whitesmoke;
 }
 
@@ -97,16 +97,17 @@ h4{
 .dos-divisiones{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 2rem 10rem; 
-    max-width: 70%;
+    
     margin: auto;
     background-color: whitesmoke;
+    height: 300px;
     
 }
-.background-color{
-    background-color: #fff;
-    height: 300px;
+.size-area{
+    height: 500px;
+    background-color: whitesmoke;
 }
 
 .dos-divisiones p{
