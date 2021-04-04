@@ -46,6 +46,8 @@ h4{
 
 .background-white{
     background-color: whitesmoke;
+    
+    
 }
 
 /* END GLOBALES */
@@ -56,6 +58,7 @@ h4{
     display: flex;
     align-items: center;
     justify-content: space-between; 
+   
 }
 
 
@@ -90,7 +93,8 @@ h4{
 }
 
 .img-personal{
-    width: 40vh
+    width: 200px;
+    filter: drop-shadow(0 0 5px #000);
 }
 
 .dos-divisiones{
@@ -101,6 +105,7 @@ h4{
     margin: auto;
     background-color: whitesmoke;
     height: 350px;
+    max-width: 70%;
     
 }
 
@@ -121,6 +126,7 @@ h4{
 .conocimientos{
     background-color: #52575d;
     
+    
 
 }
 
@@ -137,17 +143,19 @@ h4{
 .conocimientos-container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 2rem 10rem; 
+    justify-content: center;
     max-width: 70%;
     height: 350px;
-    margin: auto;
+    margin: 0 auto;
     color: whitesmoke;
+    
     
 }
 
 .img-idea{
-    width: 200px;
+    width: 150px;
+    margin-right: 40px;
+    filter: drop-shadow(0 0 5px #fff);
 }
 
 .proyectos{
@@ -208,7 +216,7 @@ h4{
     background-image: url(contact-image.jpg);
     width: 100%;
     background-size: cover;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -221,6 +229,12 @@ h4{
     text-align:  start;
 }
 
+
+.footer-container{
+    width: 100%;
+    height: 5vh;
+    background-color: #52575d;
+}
 
 /*                  INSERT                   */
 
