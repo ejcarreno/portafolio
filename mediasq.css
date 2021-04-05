@@ -9,13 +9,13 @@
     
     }
 
-    main .dos-divisiones{
+  .dos-divisiones{
         width: 95%;
         margin: 0 auto;
         padding: 0;
     }
 
-    section .conocimientos-container{
+    .conocimientos-container{
         max-width: 95%;
         margin: 0 auto;
         padding: 0;
@@ -33,3 +33,40 @@
         margin: 0 auto;
         padding: 0;
     }
+
+
+    @media only screen and (max-width: 425px){
+    .img-header{
+        object-fit: scale-down;
+        height: auto;
+    }
+
+    .dos-divisiones{
+        flex-direction: column;
+        padding: 70px 0;
+    }
+
+    .img-personal{
+        padding: 30px;
+    }
+
+   
+
+    .conocimientos-container{
+       
+        flex-direction: column;
+        padding: 50px 0;
+        height: auto;
+    }
+
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work-background{
+    flex-direction: column;
+       background-position: left;
+       padding: 50px 0;
+    }
+}
